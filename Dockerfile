@@ -1,7 +1,7 @@
 # 베이스 이미지
 FROM amazoncorretto:21
 # 작성자 라벨 생성
-LABEL maintainer "seungbeom4382<beom95@gmail.com>"
+LABEL maintainer "shqkel<shqkel1863@gmail.com>"
 # 버전 라벨 생성
 LABEL version "1.0.0"
 # build시에만 사용할 변수 선언

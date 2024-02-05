@@ -1,0 +1,16 @@
+# profile??
+spring:
+  profiles:
+    default: test
+    active: test
+  # ?? jpa ??
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        hbm2ddl:
+          auto: validate
+    database: oracle
+    database-platform: org.hibernate.dialect.OracleDialect
